@@ -1,12 +1,12 @@
 仪表盘
 1.在pom里：
-<parent>
+	<parent>
 		<groupId>org.springframework.cloud</groupId>
 		<artifactId>spring-cloud-starter-parent</artifactId>
 		<version>Camden.SR3</version>
-		<relativePath/> <!-- lookup parent from repository -->
+		<relativePath/> 
 	</parent>
-  <dependencies>
+  	<dependencies>
 		<!-- 容错保护 -->
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
